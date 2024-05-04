@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { MatSnackBar } from '@angular/material/snack-bar';
 import { Product } from 'src/app/models/product';
 import { ProductsService } from 'src/app/services/products.service';
-
+// This is a new comment added by Abhishek, only specific to branch learn-new
 @Component({
   selector: 'app-admin-add-item',
   templateUrl: './admin-add-item.component.html',
